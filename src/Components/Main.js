@@ -13,7 +13,7 @@ const Main = () => {
       <div className='cards'>
         {
           recipes.map(recipe => <div key={recipe.id} className='menu-items'>
-            <img src={recipe.image} alt=''/>
+            <img src={recipe.image} alt='our-recipees'/>
             <div className='menu-content'>
               <div className='heading'>
                 <h5>{recipe.title}</h5>
