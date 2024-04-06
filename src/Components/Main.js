@@ -2,6 +2,9 @@ import React from 'react'
 import recipes from '../recipes'
 
 const Main = () => {
+  const handleOrder = (id)=>{
+    console.lof(id)
+  }
   return (
     <main className='main'>
       <div>
@@ -20,6 +23,7 @@ const Main = () => {
                 <p>{recipe.price}</p>
               </div>
              <p>{recipe.description}</p>
+             <button className='orderbtn' onClick={()=>handleOrder(recipe.id)}>Order Now</button>
             </div>
           </div>)
         }
