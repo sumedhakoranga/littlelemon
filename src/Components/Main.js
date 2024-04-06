@@ -3,7 +3,7 @@ import recipes from '../recipes'
 
 const Main = () => {
   const handleOrder = (id)=>{
-    console.lof(id)
+    console.log(id)
   }
   return (
     <main className='main'>

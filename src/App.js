@@ -4,7 +4,6 @@ import Header from './Components/Header'
 import Main from './Components/Main'
 import Testimonials from './Components/Testimonials'
 import Footer from './Components/Footer'
-import Naim from './Components/naim';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Nav/>
       <Header/>
       <Main/>
-      <Naim/>
       <Testimonials />
       <Footer />
     </>
